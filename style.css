@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #111111;
+}
+body{
+  margin: 0px;
+}
+#image{
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+
+  background-image: url("download (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#my_favorite{
+  display: flex;
+  
+}
+img:hover{
+  
+  z-index: 2;
+}
